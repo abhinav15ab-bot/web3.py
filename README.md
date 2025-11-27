@@ -1,89 +1,76 @@
 # Web3 Favorites cu
 
-what does this project do?
-1. Deploy our vyper contract from raw python
-This project teaches you how to:
+🚀 Project Overview
 
-  Write a Vyper smart contract
-  Compile it using Python
-  Deploy it to a blockchain (like Sepolia or Anvil) using web3.py
-  No frameworks like Brownie or Foundry — pure Python!
+This project shows how to deploy Vyper smart contracts using raw Python, while keeping private keys secure and making the entire setup reproducible for any developer using uv.
 
-So you learn how blockchain actually works “under the hood.”
+📌 What This Project Does
+1. Deploy Vyper Contracts from Python
 
-2. Encrypt our private keys locally, and use then to sign transactions
+Compile Vyper contracts using Python
 
-Normally people store private keys in .env, which is unsafe.
-In this project, you learn to:
+Deploy them using web3.py
 
-  Encrypt your private key into a JSON keystore file (same format MetaMask uses)
-  Protect it with a password
-  Decrypt it inside Python
-  Use it to sign transactions securely
+Interact with the blockchain without relying on heavy frameworks
 
-So no one can steal your private key.
+2. Secure Private Key Encryption
 
-3. This is going to be reproducible by other engineers using uv with python
-This means:
+Convert your private key into an encrypted JSON keystore
 
-  The project can be set up by any engineer
-  The environment, dependencies, and versions are automatically installed
-  Reproducible = works the same on any machine
+Protect it with a password
 
-This is how professional teams manage Python blockchain code.
+Decrypt it only when needed
 
+Use it to safely sign transactions
 
-what are going to learn?
-1. What is a transaction comprised of?
+3. Reproducible Environment with uv
 
-You will learn each part of a blockchain transaction:
-nonce – how many transactions your account has sent
-to – receiver address
-value – ETH you send
-gas – max gas to use
-gasPrice / maxFeePerGas – how much you pay
-data – encoded smart-contract function call
-chainId – protects against replay attacks
-signature – created using your private key
-After signing, this becomes a raw transaction that nodes can accept.
+Consistent dependency management
 
-2. what is json keystore?
+Fast setup for any engineer
 
-A JSON keystore is a password-protected private key file.
-It is a .json file
-Encrypted using strong encryption (AES-128-CTR + PBKDF2 or scrypt)
-Used by MetaMask, Geth, OpenEthereum, etc.
-You unlock it by giving your password, then your program can use the private key to sign transactions.
-It is MUCH safer than keeping your private key in plain text.
+Ensures the project runs the same everywhere
 
-3. How can I safely store my private keys?
+🎓 What You Will Learn
+1. What an Ethereum Transaction Contains
 
-You will learn the safe ways:
+You will understand each part of a transaction:
 
-✅ Recommended
+nonce
 
-Use encrypted JSON keystore
+to
 
-Store password in a secure system (not in code)
+value
 
-Never expose raw private key on GitHub
+gas
 
-Use .gitignore
+maxFeePerGas / maxPriorityFeePerGas
 
-Use environment variables only for non-secret keys
+data
 
-❌ Never do
+chainId
 
-Never put private key in code
+signature
 
-Never upload to GitHub
+2. What a JSON Keystore Is
 
-Never send to anyone
+A JSON keystore is:
 
-Never store unencrypted keys in public folders
+An encrypted version of your private key
 
-This project teaches you the professional method used by real blockchain engineers.
+Password-protected
 
+The same format used by MetaMask and Ethereum clients
 
+3. How to Store Private Keys Safely
 
+You will learn:
+
+Using encrypted keystore files
+
+Never putting raw private keys in code
+
+Keeping secrets out of GitHub
+
+Signing transactions locally
 
