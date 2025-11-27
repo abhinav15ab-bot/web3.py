@@ -1,4 +1,4 @@
-# I'm a comment!
+# I am Abhinav Malik
 
 # pragma version 0.4.3
 # @license MIT
@@ -9,7 +9,7 @@ struct Person:
 
 my_favorite_number: uint256
 
-# Static Array/List
+
 list_of_numbers: public(uint256[5])
 list_of_people: public(Person[5])
 list_of_people_index: uint256
