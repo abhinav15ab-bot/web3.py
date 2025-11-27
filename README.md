@@ -48,7 +48,16 @@ signature – created using your private key
 After signing, this becomes a raw transaction that nodes can accept.
 
 2. what is json keystore?
+
+A JSON keystore is a password-protected private key file.
+It is a .json file
+Encrypted using strong encryption (AES-128-CTR + PBKDF2 or scrypt)
+Used by MetaMask, Geth, OpenEthereum, etc.
+You unlock it by giving your password, then your program can use the private key to sign transactions.
+It is MUCH safer than keeping your private key in plain text.
+
 3. How can I safely store my private keys?
+
 
 
 
