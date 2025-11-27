@@ -12,6 +12,17 @@ This project teaches you how to:
 So you learn how blockchain actually works “under the hood.”
 
 2. Encrypt our private keys locally, and use then to sign transactions
+
+Normally people store private keys in .env, which is unsafe.
+In this project, you learn to:
+
+  Encrypt your private key into a JSON keystore file (same format MetaMask uses)
+  Protect it with a password
+  Decrypt it inside Python
+  Use it to sign transactions securely
+
+So no one can steal your private key.
+
 3. This is going to be reproducible by other engineers using uv with python
 
 
@@ -19,3 +30,4 @@ what are going to learn?
 1. What is a transaction comprised of?
 2. what is json keystore?
 3. How can I safely store my private keys?
+
