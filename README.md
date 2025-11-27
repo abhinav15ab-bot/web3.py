@@ -24,10 +24,18 @@ In this project, you learn to:
 So no one can steal your private key.
 
 3. This is going to be reproducible by other engineers using uv with python
+This means:
+
+  The project can be set up by any engineer
+  The environment, dependencies, and versions are automatically installed
+  Reproducible = works the same on any machine
+
+This is how professional teams manage Python blockchain code.
 
 
 what are going to learn?
 1. What is a transaction comprised of?
 2. what is json keystore?
 3. How can I safely store my private keys?
+
 
