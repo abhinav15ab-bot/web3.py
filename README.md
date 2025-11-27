@@ -58,6 +58,32 @@ It is MUCH safer than keeping your private key in plain text.
 
 3. How can I safely store my private keys?
 
+You will learn the safe ways:
+
+✅ Recommended
+
+Use encrypted JSON keystore
+
+Store password in a secure system (not in code)
+
+Never expose raw private key on GitHub
+
+Use .gitignore
+
+Use environment variables only for non-secret keys
+
+❌ Never do
+
+Never put private key in code
+
+Never upload to GitHub
+
+Never send to anyone
+
+Never store unencrypted keys in public folders
+
+This project teaches you the professional method used by real blockchain engineers.
+
 
 
 
