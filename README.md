@@ -35,7 +35,20 @@ This is how professional teams manage Python blockchain code.
 
 what are going to learn?
 1. What is a transaction comprised of?
+
+You will learn each part of a blockchain transaction:
+nonce – how many transactions your account has sent
+to – receiver address
+value – ETH you send
+gas – max gas to use
+gasPrice / maxFeePerGas – how much you pay
+data – encoded smart-contract function call
+chainId – protects against replay attacks
+signature – created using your private key
+After signing, this becomes a raw transaction that nodes can accept.
+
 2. what is json keystore?
 3. How can I safely store my private keys?
+
 
 
