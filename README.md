@@ -38,12 +38,16 @@
 ├── contracts/
 │   └── favorites.vy
 │
+
+
 ├── scripts/
 │   ├── compile_contract.py
 │   ├── encrypt_key.py
 │   ├── decrypt_key.py
 │   └── deploy_contract.py
 │
+
+
 ├── .env
 ├── uv.lock
 └── pyproject.toml
@@ -62,28 +66,36 @@
 
 🚀 Getting Started
     1️⃣ Install uv
+    
     pip install uv
 
-2️⃣ Clone the Repository
+    2️⃣ Clone the Repository
+
     git clone https://github.com/<your-username>/<your-repo>.git
     cd <your-repo>
 
-3️⃣ Install Dependencies
+    3️⃣ Install Dependencies
+
     uv sync
 
-4️⃣ Compile Contract
+    4️⃣ Compile Contract
+
     python scripts/compile_contract.py
 
-5️⃣ Encrypt Your Private Key
+    5️⃣ Encrypt Your Private Key
+
     python scripts/encrypt_key.py
 
-6️⃣ Deploy the Contract
+    6️⃣ Deploy the Contract
+
     python scripts/deploy_contract.py
 
-📊 Example Output
+    📊 Example Output
+
     nonce: 1
     gas: 21000
     chainId: 11155111
     signature: 0xabc...
     contract deployed at: 0x1234...
+
 
