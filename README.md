@@ -1,6 +1,6 @@
 🚀 Vyper Contract Deployment & Secure Key Management
 
-    A hands-on project built with Python, Vyper, and web3.py, designed to teach how to deploy smart contracts, sign transactions, and securely manage private keys.
+A hands-on project built with Python, Vyper, and web3.py, designed to teach how to deploy smart contracts, sign transactions, and securely manage private keys.
     This project also uses uv to provide a fully reproducible environment for any developer.
 
 ✨ Features
@@ -17,13 +17,13 @@
 
 ⚙️ Tech Stack
 
-  Vyper – Smart contract language
-
-  Python & web3.py – Deployment + blockchain interactions
-
-  JSON Keystore – Secure private key format
-
-  uv – Modern dependency & environment manager
+      Vyper – Smart contract language
+    
+      Python & web3.py – Deployment + blockchain interactions
+    
+      JSON Keystore – Secure private key format
+    
+      uv – Modern dependency & environment manager
 
 📚 What You Will Learn
 
@@ -97,5 +97,6 @@
     chainId: 11155111
     signature: 0xabc...
     contract deployed at: 0x1234...
+
 
 
