@@ -1,76 +1,86 @@
-# Web3 Favorites cu
+🚀 Vyper Contract Deployment & Secure Key Management
 
-🚀 Project Overview
+A hands-on project built with Python, Vyper, and web3.py, designed to teach how to deploy smart contracts, sign transactions, and securely manage private keys.
+This project also uses uv to provide a fully reproducible environment for any developer.
 
-This project shows how to deploy Vyper smart contracts using raw Python, while keeping private keys secure and making the entire setup reproducible for any developer using uv.
+✨ Features
 
-📌 What This Project Does
-1. Deploy Vyper Contracts from Python
+📝 Deploy Vyper Contracts using pure Python
 
-Compile Vyper contracts using Python
+🔐 Encrypted JSON Keystore for private key protection
 
-Deploy them using web3.py
+✍️ Local Transaction Signing with decrypted keys
 
-Interact with the blockchain without relying on heavy frameworks
+⚙️ Reproducible Environment powered by uv
 
-2. Secure Private Key Encryption
+🧩 Under-the-Hood Learning of how web3.py works
 
-Convert your private key into an encrypted JSON keystore
+⚙️ Tech Stack
 
-Protect it with a password
+Vyper – Smart contract language
 
-Decrypt it only when needed
+Python & web3.py – Deployment + blockchain interactions
 
-Use it to safely sign transactions
+JSON Keystore – Secure private key format
 
-3. Reproducible Environment with uv
+uv – Modern dependency & environment manager
 
-Consistent dependency management
+📚 What You Will Learn
 
-Fast setup for any engineer
+🧱 What makes up an Ethereum transaction (nonce, gas, chainId, data, etc.)
 
-Ensures the project runs the same everywhere
+🔒 What a JSON keystore is and why it’s used
 
-🎓 What You Will Learn
-1. What an Ethereum Transaction Contains
+🗝️ How to safely store, encrypt, and decrypt private keys
 
-You will understand each part of a transaction:
+📤 How to deploy and interact with Vyper contracts using raw Python
 
-nonce
+📂 Project Structure
+├── contracts/
+│   └── favorites.vy
+│
+├── scripts/
+│   ├── compile_contract.py
+│   ├── encrypt_key.py
+│   ├── decrypt_key.py
+│   └── deploy_contract.py
+│
+├── .env
+├── uv.lock
+└── pyproject.toml
 
-to
+🙌 About the Author
 
-value
+👤 Abhinav Malik
 
-gas
+🔗 Connect with me:
 
-maxFeePerGas / maxPriorityFeePerGas
 
-data
 
-chainId
 
-signature
+🚀 Getting Started
+1️⃣ Install uv
+pip install uv
 
-2. What a JSON Keystore Is
+2️⃣ Clone the Repository
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
 
-A JSON keystore is:
+3️⃣ Install Dependencies
+uv sync
 
-An encrypted version of your private key
+4️⃣ Compile Contract
+python scripts/compile_contract.py
 
-Password-protected
+5️⃣ Encrypt Your Private Key
+python scripts/encrypt_key.py
 
-The same format used by MetaMask and Ethereum clients
+6️⃣ Deploy the Contract
+python scripts/deploy_contract.py
 
-3. How to Store Private Keys Safely
-
-You will learn:
-
-Using encrypted keystore files
-
-Never putting raw private keys in code
-
-Keeping secrets out of GitHub
-
-Signing transactions locally
-
+📊 Example Output
+nonce: 1
+gas: 21000
+chainId: 11155111
+signature: 0xabc...
+contract deployed at: 0x1234...
