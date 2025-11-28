@@ -99,11 +99,11 @@ python hello.py # for pip/python
 
 Go to [tenderly](https://dashboard.tenderly.co/) and sign up, and then select `Create Virtual TestNet`.
 
-![Tenderly Virtual Network](./img/virtual_network.png)
+![Tenderly Virtual Network](https://github.com/Cyfrin/web3py-favorites-cu/raw/main/img/virtual_network.png)
 
 Your config should look like this:
 
-![Tenderly Virtual Network](./img/config.png)
+![Tenderly Virtual Network](https://github.com/Cyfrin/web3py-favorites-cu/raw/main/img/config.png)
 
 ## 2. Fund a wallet
 
@@ -111,13 +111,13 @@ Select your network, and hit `Fund Account` and paste in an address.
 
 We recommend using `0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266` since it's a well-known testing address. 
 
-![Tenderly Virtual Network](https://github.com/Cyfrin/web3py-favorites-cu/raw/main/img/virtual_network.png)
+![Tenderly Virtual Network](https://github.com/Cyfrin/web3py-favorites-cu/raw/main/img/fund.png)
 
 ## 3. Get your RPC URL
 
 Create a `.env` file, get your RPC URL from the tenderly dashboard, and add it to your `.env` file.
 
-![Tenderly Virtual Network](./img/RPC.png)
+![Tenderly Virtual Network](https://github.com/Cyfrin/web3py-favorites-cu/raw/main/img/RPC.png)
 
 Example `.env`:
 
@@ -202,5 +202,6 @@ uv pip compile pyproject.toml -o requirements.txt
 [![GitHub](https://img.shields.io/badge/GitHub-abhinav15ab--bot-black?logo=github)](https://github.com/abhinav15ab-bot)
 
 ---
+
 
 
