@@ -111,7 +111,7 @@ Select your network, and hit `Fund Account` and paste in an address.
 
 We recommend using `0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266` since it's a well-known testing address. 
 
-![Tenderly Virtual Network](./img/fund.png)
+![Tenderly Virtual Network](https://github.com/Cyfrin/web3py-favorites-cu/raw/main/img/virtual_network.png)
 
 ## 3. Get your RPC URL
 
@@ -202,4 +202,5 @@ uv pip compile pyproject.toml -o requirements.txt
 [![GitHub](https://img.shields.io/badge/GitHub-abhinav15ab--bot-black?logo=github)](https://github.com/abhinav15ab-bot)
 
 ---
+
 
