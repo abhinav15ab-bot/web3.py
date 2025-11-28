@@ -1,6 +1,6 @@
 # web3py Favorites
 
-This is from the [Cyfrin Updraft Vyper Course]().
+This is from Abhinav Malik
 
 - [web3py Favorites](#web3py-favorites)
 - [Getting Started](#getting-started)
@@ -202,3 +202,4 @@ uv pip compile pyproject.toml -o requirements.txt
 [![GitHub](https://img.shields.io/badge/GitHub-abhinav15ab--bot-black?logo=github)](https://github.com/abhinav15ab-bot)
 
 ---
+
